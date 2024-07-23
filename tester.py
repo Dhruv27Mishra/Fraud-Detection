@@ -55,8 +55,8 @@ class_report = classification_report(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 print("Confusion Matrix:")
 print(conf_matrix)
-print("Classification Report:")
-print(class_report)
+#print("Classification Report:")
+#print(class_report)
 
 # Save the model to a file
 joblib.dump(model, 'fraud_detection_model.pkl')
@@ -67,5 +67,5 @@ model = joblib.load('fraud_detection_model.pkl')
 # Predict on new data
 new_data = X_test.sample(1)  # Just a sample for demonstration
 prediction = model.predict(new_data)
-print(f"Prediction for new data: {prediction}")
+#print(f"Prediction for new data: {prediction}")
 
