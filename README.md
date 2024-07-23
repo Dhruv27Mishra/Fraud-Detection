@@ -43,7 +43,7 @@ Save Model: Save the trained model to a file for future use, allowing it to be l
 
 How to run the code:
 To use the program follow the given steps below:
-1.) Go to Directory "Dataset"
-2.) Run the program gen.py which generates two files train_transactions.csv and test_transactions_csv
-3.) Run the program tester.py to use the prediction ML model and get results in the terminal
-4.) Run graph.py in the main directory to get grphical reults for the same
+1.) Go to Directory "Dataset" 
+2.) Run the program gen.py which generates two files train_transactions.csv and test_transactions_csv 
+3.) Run the program tester.py to use the prediction ML model and get results in the terminal 
+4.) Run graph.py in the main directory to get grphical reults for the same 
