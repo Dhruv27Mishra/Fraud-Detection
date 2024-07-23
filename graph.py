@@ -9,8 +9,8 @@ import xgboost as xgb
 import joblib
 
 # Load the datasets
-train_df = pd.read_csv('train_transactions.csv')
-test_df = pd.read_csv('test_transactions.csv')
+train_df = pd.read_csv('Dataset/train_transactions.csv')
+test_df = pd.read_csv('Dataset/test_transactions.csv')
 
 # Preprocess the data
 def preprocess(df):
